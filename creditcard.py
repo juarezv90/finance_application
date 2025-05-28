@@ -16,3 +16,10 @@ class CreditCard(Debt):
         self.card_name = card_name
         self.balance = float(balance)
         self.APR = apr
+
+class Loan(Debt):
+    loan_name = ""
+    balance = 0
+    APR = 0
+    loan_type = ""
+
